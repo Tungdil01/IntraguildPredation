@@ -2,9 +2,9 @@
 
 If this is the first time you are running, please install the requirements with the following command:
 
-source .env/bin/activate && pip3 install -r requirements.txt
+virtualenv .env && source .env/bin/activate && pip3 install -r requirements.txt
 
-Otherwise, if you already have all the requirements, you may want to copy the following command to your terminal:
+Otherwise, if you already have all the requirements and the virtual environment (.env) configured, you may want to copy the following command to your terminal:
 
 virtualenv .env && source .env/bin/activate && ipython notebook IntraguildPredation.ipynb
 
