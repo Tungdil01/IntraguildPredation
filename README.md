@@ -1,6 +1,10 @@
 # IntraguildPredation
 
-If you are running with a virtual environment just copy to your terminal:
+If this is the first time you are running, please install the requirements with the following command:
+
+source .env/bin/activate && pip3 install -r requirements.txt
+
+Otherwise, if you already have all the requirements, you may want to copy the following command to your terminal:
 
 virtualenv .env && source .env/bin/activate && ipython notebook IntraguildPredation.ipynb
 
