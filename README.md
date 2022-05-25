@@ -6,7 +6,7 @@ virtualenv .env && source .env/bin/activate && pip3 install -r requirements.txt
 
 Otherwise, if you already have all the requirements and the virtual environment (.env) configured, you may want to copy the following command to your terminal:
 
-virtualenv .env && source .env/bin/activate && ipython notebook IntraguildPredation.ipynb
+virtualenv .env && source .env/bin/activate && jupyter notebook IntraguildPredation.ipynb
 
 Alternatively, you can run using Binder by the link below:
 
